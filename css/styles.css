@@ -92,3 +92,27 @@ h3 {
   width: 100%;
   height: auto;
 }
+@media (max-width: 992px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .landing-page {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .row {
+    text-align: center;
+  }
+  .weather-reverse-responsive {
+    flex-wrap: wrap-reverse;
+  }
+  .text-start {
+    text-align: center !important;
+  }
+  .ps-5 {
+    padding-left: 0px !important;
+  }
+}
